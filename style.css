@@ -1,7 +1,18 @@
 /** sticky footer css **/
 
+* {
+	box-sizing: border-box;
+}
+
+/* the above keeps all padding and such within the set width */
+
 html, body {
 	height: 100%;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Droid Serif', serif;
 }
 .container {
 	display: table;
@@ -29,7 +40,6 @@ html, body {
 .main p {padding: 10px;}
 
 footer {
-	background-color: #808087;
 	margin: auto;
 	clear: both;
 	padding: 5px;
@@ -67,7 +77,6 @@ body {
 
 
 nav {
-	font-family: 'Droid Sans', Helvetica, sans-serif;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	margin: auto;
@@ -105,7 +114,6 @@ nav a:visited {
 /* main content styling */
 
 p {
-	font-family: 'Droid Sans', Helvetica, sans-serif;
 	font-size: 16px;
 	text-align: justify;
 }
@@ -145,9 +153,7 @@ a:focus {
 
 footer p {
 	font-size: 10px;
-	font-family: Helvetica, sans-serif;
 	text-align: center;
-	color: white;
 }
 
 #copyright {clear: both}
@@ -160,46 +166,22 @@ footer p {
 
 #left-footer {
 	float: left;
-	margin: 5px;
-	width: 33.33%;
-}
-
-#left-footer .widget {
-	font-family: 'Droid';
-}
-
-#left-footer .widgettitle {
-	font-family: 'Droid Serif';
+	width: 33%;
+	background-color: red;
 }
 
 
 #middle-footer {
 	float: left;
-	margin: 5px;
-	width: 33.33%;
-}
-
-#middle-footer .widget {
-	font-family: 'Droid';
-}
-
-#middle-footer .widgettitle {
-	font-family: 'Droid Serif';
+	width: 33%;
+	background-color: blue;
 }
 
 
-#right_footer {
+#right-footer {
 	float: left;
-	margin: 5px;
-	width: 33.33%;
-}
-
-#right_footer .widget {
-	font-family: 'Droid';
-}
-
-#right_footer .widgettitle {
-	font-family: 'Droid Serif';
+	width: 33%;
+	background-color: green;
 }
 
 

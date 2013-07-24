@@ -8,8 +8,8 @@
 <title><?php bloginfo('site_title'); ?></title>
 
 
-<link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Droid+Serif|Droid+Sans" rel="stylesheet" type="text/css">
+
 
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>"/>
 
