@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /** end sticky footer css **/
 
-
+/* structure */
 
 .container {
 	margin: auto;
@@ -48,6 +48,7 @@ footer {
 .main {
 	margin: auto;
 	border-radius: 5px;
+	border-bottom: 1px solid #d3d3d3;
 }
 
 body {
@@ -151,6 +152,10 @@ a:focus {
 
 /** footer styling **/
 
+footer {
+	border-top: 1px solid #d3d3d3;
+}
+
 footer p {
 	font-size: 10px;
 	text-align: center;
@@ -167,21 +172,18 @@ footer p {
 #left-footer {
 	float: left;
 	width: 33%;
-	background-color: red;
 }
 
 
 #middle-footer {
 	float: left;
 	width: 33%;
-	background-color: blue;
 }
 
 
 #right-footer {
 	float: left;
 	width: 33%;
-	background-color: green;
 }
 
 
