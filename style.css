@@ -152,9 +152,6 @@ a:focus {
 
 /** footer styling **/
 
-footer {
-	border-top: 1px solid #d3d3d3;
-}
 
 footer p {
 	font-size: 10px;
@@ -172,18 +169,21 @@ footer p {
 #left-footer {
 	float: left;
 	width: 33%;
+	border-top: 1px solid #d3d3d3;
 }
 
 
 #middle-footer {
 	float: left;
 	width: 33%;
+	border-top: 1px solid #d3d3d3;
 }
 
 
 #right-footer {
 	float: left;
 	width: 33%;
+	border-top: 1px solid #d3d3d3;
 }
 
 
